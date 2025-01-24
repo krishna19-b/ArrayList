@@ -7,7 +7,9 @@ class ReverseArray{
             al.add("Pink");
             al.add("Green");
             //Collections.shuffle(al);
-            Collections.reverse(al);
+            String temp=al.get(0);
+            al.set(0,al.get(3));
+            al.set(3,temp);
             System.out.print(al);
     }
 }

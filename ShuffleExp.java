@@ -6,7 +6,8 @@ class Arraylist{
             al.add("Blue");
             al.add("Pink");
             al.add("Green");
-            Collections.shuffle(al);
+            //Collections.shuffle(al);
+            Collections.reverse(al);
             System.out.print(al);
     }
 }
